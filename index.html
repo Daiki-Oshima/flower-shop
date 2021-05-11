@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fortuna</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/krishdevdb/reseter.css/css/reseter.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- ローディングアニメーション -->
+  <div id="splash">
+    <div id="splash_text"></div>
+  </div>
+
+  <!-- コンテンツ -->
+  <div class="contents">
+    <!-- ヘッダー -->
+    <header class="header">
+      <!-- ヘッダーロゴ・メニュー -->
+      <div id="header__nav" class="header__nav">
+        <div class="u-content-wrapper header__nav__wrapper">
+          <a class="header__nav__logo" href="#">Fortuna</a>
+          <!-- ハンバーガーメニュー -->
+          <div class="hamburger-menu">
+            <span class="hamburger-menu__line"></span>
+            <span class="hamburger-menu__line"></span>
+            <span class="hamburger-menu__line"></span>
+          </div>
+        </div>
+        <nav id="header__nav__list">
+          <ul>
+            <li><a href="#section-concept">Concept</a></li>
+            <li><a href="#section-work">Work</a></li>
+            <li><a href="#section-florist">Florist</a></li>
+            <li><a href="#section-info">Shop Information</a></li>
+            <li><a href="#section-contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <!-- ヘッダーファーストビュー -->
+      <div class="u-content-wrapper">
+        <h1 class="header__title">Fortuna</h1>
+        <p class="header__title__sub">幸せを運ぶ小さなお花屋さん</p>
+      </div>
+      <!-- スクロール促し機能 -->
+      <div class="scrolldown"><span>Scroll</span></div>
+    </header>
+    <!-- コンテンツセクション -->
+    <!-- コンセプトエリア -->
+    <section id="section-concept" class="concept">
+      <div class="u-content-wrapper">
+        <h2 class="u-heading">Concept</h2>
+        <p class="u-text">Fortuna（フォルトゥナ）とはイタリア語で「幸運」を意味します。<br>私たちFortunaは、ご依頼された方へ、ご依頼された方からお花を受け取った方へ幸せが届きますように<br>そんな思いを胸に、私たちFortunaはサービスを提供します。<br>幸せをお花にのせて運ぶお店へ、ぜひお越しください。</p>
+        <img class="concept__image fadein" src="image/concept.png">
+      </div>
+    </section>
+    <!-- ワークエリア -->
+    <section id="section-work" class="work">
+      <div class="u-content-wrapper">
+        <h2 class="u-heading">Work</h2>
+        <p class="u-text">オーダーメイドでのブーケ・アレンジメントのデザインのほか、<br>ウェディングやイベントの装花なども行なっています。<br>一人一人にあったご提案をさせていただきます。</p>
+        <div class="work__contents">
+          <div class="work__content fadein">
+            <img class="work__content__image" src="image/work_gift.png" alt="">
+            <h3 class="work__content__heading">Gift</h3>
+            <p class="work__content__text">花束をお送りしたいお相手、伝えたいお気持ちに合わせたプレゼント用花束のアレンジメントをさせていただきます。花言葉などの豆知識もお伝えします。</p>
+          </div>
+          <div class="work__content fadein">
+            <img class="work__content__image" src="image/work_decoretion.png" alt="">
+            <h3 class="work__content__heading">Decoration</h3>
+            <p class="work__content__text">お写真を彩るお花を一輪から販売。一定期間のご契約で定期的にご自宅へ配送させていただくことも可能です。</p>
+          </div>
+          <div class="work__content fadein">
+            <img class="work__content__image" src="image/work_wedding.png" alt="">
+            <h3 class="work__content__heading">Wedding</h3>
+            <p class="work__content__text">ウエディングドレスに合わせたブーケや式場の雰囲気に合う装花をご提案。お打ち合わせの流れや回数、費用などにつきましてはお問い合わせください。</p>
+          </div>
+          <div class="work__content fadein">
+            <img class="work__content__image" src="image/work_for_yourself.png" alt="">
+            <h3 class="work__content__heading">For yourself</h3>
+            <p class="work__content__text">お部屋の雰囲気やライフスタイルをお聞きしてご自宅用の花束をご提案し、少しでも長く咲かせるコツもお教えします。花束に合った花瓶をご提案することも可能です。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- フローリストエリア -->
+    <section id="section-florist" class="florist">
+      <div class="u-content-wrapper">
+        <h2 class="u-heading">Florist</h2>
+        <p class="u-text">
+          Fortuna専属のフローリストたちをご紹介。 <br>得意の分野であなたのオーダーを最大限に叶えます。</p>
+        <div class="florist__persons">
+          <div class="florist__person florist__fadein">
+            <img class="florist__content__image" src="image/men.jpg" alt="">
+            <h3 class="florist__content__heading">Takumi</h3>
+            <p class="florist__content__text">Fortuna代表。大学にてフラワー科を専攻し、フラワーコーディネーターとして企業に就職。お花でより多くの人幸せを届けたいと思い、独立し、Fortunaを創業する。</p>
+          </div>
+          <div class="florist__person florist__fadein">
+            <img class="florist__content__image" src="image/girl2.jpg" alt="">
+            <h3 class="florist__content__heading">Canon</h3>
+            <p class="florist__content__text">フローリスト以外に心理士やコーチングの資格をもつ。資格を活かし最大限希望を叶えるためにお客様の要望をひきだす。主にディレクション担当。</p>
+          </div>
+          <div class="florist__person florist__fadein">
+            <img class="florist__content__image" src="image/girl1.jpg" alt="">
+            <h3 class="florist__content__heading">Yukari</h3>
+            <p class="florist__content__text">フラワーコンテストでの受賞経験あり。豊富な知識と超一流の技術でお客様のどんなオーダーも叶えるベテランフローリスト。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ショップインフォエリア -->
+    <section id="section-info" class="shop-information">
+      <div class="u-content-wrapper fadein">
+        <h2 class="u-heading">Shop information</h2>
+        <p class="u-text">
+          Fortunaの店舗情報をご紹介します。</p>
+        <div class="shop-information__contents">
+          <div class="shop-information__content__image">
+            <img src="image/shop.jpg" alt="">
+          </div>
+          <table class="shop-information__content__table">
+            <tbody>
+              <tr>
+                <th>住所</th>
+                <td>〒810-0001<br>AAA県BBB市CCC区DDD0-0-0</td>
+              </tr>
+              <tr>
+                <th>電話番号</th>
+                <td>0120-000-000</td>
+              </tr>
+              <tr>
+                <th>営業時間</th>
+                <td>11:00-20:30<br>（定休日：水曜日）</td>
+              </tr>
+              <tr>
+                <th>アクセス</th>
+                <td>EEE駅出口から徒歩6分<br>FFF駅8b出口から徒歩12分</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+    <!-- コンタクトエリア -->
+    <section id="section-contact" class="contact">
+      <div class="u-content-wrapper fadein">
+        <h2 class="u-heading">Contact us</h2>
+        <p class="u-text">
+          イベントや結婚式でご利用する装花のご相談や、<br>フラワーアレンジメントのご予約などはこちらからお問い合わせください。</p>
+        <a class="btn__contact" href="#">お問い合わせ</a>
+      </div>
+    </section>
+    <!-- フッター -->
+    <footer class="footer">
+      <div class="u-content-wrapper">
+        <small class="copyright">© 2021 Fortuna All Rights Reserved.</small>
+      </div>
+    </footer>
+  </div>
+  <!-- ページトップボタン -->
+  <p id="page-top"><a href="#"></a></p>
+
+<!-- jQueryの読み込み -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+<!-- プラグイン系jsの読み込み -->
+<!-- プログレスバー -->
+  <script src="https://rawgit.com/kimmobrunfeldt/progressbar.js/master/dist/progressbar.js"></script>
+
+<!-- 自作jsの読み込み -->
+  <script src="js/script.js"></script>
+</body>
+</html>
