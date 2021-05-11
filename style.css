@@ -64,7 +64,7 @@ section {
   width: 100%;
   height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-  url('https://user-images.githubusercontent.com/73574599/117891369-bb0d3700-b2f1-11eb-89b3-d7fb35d8533a.jpg');
+  url('image/main-bg.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
