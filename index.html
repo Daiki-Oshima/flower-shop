@@ -178,5 +178,11 @@
 
 <!-- 自作jsの読み込み -->
   <script src="js/script.js"></script>
+  <script>
+    $(function(){
+    var style = '<link rel="stylesheet" href="animation.css">';
+    $('head link:last').after(style);
+    });
+  </script>
 </body>
 </html>
